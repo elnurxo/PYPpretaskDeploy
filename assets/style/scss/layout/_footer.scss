@@ -1,0 +1,20 @@
+@import "../abstracts/colors";
+
+footer{
+    margin-left: 260px;
+    margin-top: 32px;
+    padding: 16px;
+    a{
+        text-decoration: underline;
+        color: black;
+        &:hover{
+            color: $footer-link-color;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    footer{
+        margin-left: 0;
+    }
+}

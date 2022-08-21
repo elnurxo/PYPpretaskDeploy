@@ -1,0 +1,21 @@
+@import "../abstracts/colors";
+
+.app-sidebar__content__form{
+    label{
+        display: block;
+        margin: 15px 0;
+    }
+    input{
+        @include inputStyle($form-input-border);
+    }
+}
+.app--main__contact_form{
+    form{
+        p{
+            margin: 15px 0;
+        }
+        input{
+            @include inputStyle($form-input-border);    
+        }
+    }
+}
